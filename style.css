@@ -1,35 +1,39 @@
 *{
 
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
 }
-#title_name{
-    background-color: #ffffff;
-    color: blue;
-    font-size: 500%;
-    text-align: center;
-}
+
+
+
 .menu {
     display: block;
     background: black;
-    padding: 20px;
+  
     font-size: 250%;
     text-align: center;
 }
 
 .menu a{
+    padding-right: 90px; 
     color: rgb(172, 155, 123);
-    padding: 20px;
-    padding-right: 5%;
     text-decoration: none;
 }
 
 .menu a:hover {
     background-color: #ddd;
     color: black;
+}
 
-  }
-
-.image img{
+#image {
+    text-align: center;
     width: 100%;
-    align-items: center; 
+    height: 1000px;
+    background-image: url("image/IMG_0437.JPG");
+    background-size: cover;
+    background-attachment: fixed;
+}
+#title_name{
+    color: 000;
+    font-size: 500%;
+   
 }
