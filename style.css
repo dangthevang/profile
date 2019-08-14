@@ -1,39 +1,76 @@
 *{
-
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Pacifico', sans-serif;
 }
-
-
-
-.menu {
-    display: block;
-    background: black;
-  
-    font-size: 250%;
-    text-align: center;
+body{
+    background-size: 100%;
+    background-color: #fff;
+    /* background-image: url("https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-0/s350x350/31444886_2043276199249605_6172540630590291968_n.jpg?_nc_cat=106&_nc_oc=AQkZN3sJR9q2YYXOeNCoZD2cQLofOh-52xGlpDQLonSqd5e64EDjDupPQSJE2JC4wkA&_nc_ht=scontent.fhan5-3.fna&oh=335eb96660e1cbd83776b92c8e422809&oe=5DD33DB1") */
 }
-
-.menu a{
-    padding-right: 90px; 
-    color: rgb(172, 155, 123);
-    text-decoration: none;
-}
-
-.menu a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-#image {
-    text-align: center;
-    width: 100%;
-    height: 1000px;
-    background-image: url("image/IMG_0437.JPG");
-    background-size: cover;
-    background-attachment: fixed;
-}
-#title_name{
-    color: 000;
+#title_name {
+    color : black;
     font-size: 500%;
-   
+    text-align: center;
+}
+
+.i{
+    top: 30%;
+    left: 4%;
+    width: 200px;
+    height: 300px;
+}
+.ed{
+    top: 40%;
+    left: 20%;
+    width: 240px;
+    height: 360px;
+}
+
+.ex{
+    top: 22.5%;
+    left: 38.5%;
+    width: 360px;
+    height: 540px;
+}
+
+.a{
+    top: 40%;
+    right: 20%;
+    width: 240px;
+    height: 360px;
+}
+.f{
+    
+    top: 30%;
+    right: 4%;   
+    width: 200px;
+    height: 300px;
+}
+.icon_menu{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    background: #07B9B1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50px; 
+}
+.icon_menu h2{
+    margin:0;
+    padding: 10px 0px;
+    font-size: 200%;
+    border-radius:10px; 
+}
+.icon_menu:hover{
+    background-color: rgb(4, 255, 242);
+    transform: scale(1.1); 
+    border-radius: 50px; 
+    position: fixed;
+}
+
+.icon_menu img{
+    margin: 10px 30px 10px;
+    padding: 10px 10px 0px; 
+}
+
+.icon_menu a{
+    text-decoration: none;
 }
